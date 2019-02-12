@@ -1,0 +1,52 @@
+.container {
+  background: #7b68ee;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  height: 175px;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.form {
+  width: 50%;
+  position: relative;
+  height: 40px;
+  margin: 0 auto;
+  .input {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      opacity: .8;
+    }
+  }
+  .button {
+    text-transform: uppercase;
+    color: #7b68ee;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: white;
+    margin: 0;
+    font-size: 14px;
+    &:focus {
+      outline: none;
+    }
+  }
+}

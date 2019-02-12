@@ -1,0 +1,55 @@
+.form {
+  width: 50%;
+  position: relative;
+  height: 40px;
+  margin: 30px auto 10px;
+  .innerContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+  }
+  .input {
+    width: 80%;
+    font-size: 24px;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+    background: #7b68ee;
+    text-align: center;
+    color: white;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: white;
+      opacity: .7;
+    }
+  }
+  .button {
+    height: 40px;
+    width: 60px;
+    font-size: 14px;
+    color: #7b68ee;
+    background: white;
+    text-transform: uppercase;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .pencil {
+    text-transform: uppercase;
+    background-image: url('./pencil.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7b68ee;
+    color: #7b68ee;
+    height: 30px;
+    width: 30px;
+    border: none;
+    margin: 0;
+    font-size: 14px;
+    &.focus {
+      outline: none;
+    }
+  }
+}
